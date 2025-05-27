@@ -4,13 +4,19 @@
 
 ---
 
-# node-js-sample
+# Final Project - Node.js Sample for AWS EC2 Deployment
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
+This is a modified version of the Heroku Node.js sample, adapted for deployment on AWS EC2 using GitHub Actions.
 
-## Running Locally
+## Deployment Team
+- Nama: Matheus Pane
+- Kelompok: 3
+- Kelas: SISKA 2024/2025
 
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
+## Deployment Flow
+- Push to `main` branch
+- GitHub Actions workflow runs
+- SSH into EC2 and deploys app using `pm2`
 
 ```sh
 git clone git@github.com:heroku/node-js-sample.git # or clone your own fork
