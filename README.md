@@ -4,7 +4,7 @@
 
 ---
 
-# Final Project - Node.js Sample for AWS EC2 Deployment
+# Final Project - Node.js Sample for AWS EC2 Deploymentt
 
 This is a modified version of the Heroku Node.js sample, adapted for deployment on AWS EC2 using GitHub Actions.
 
