@@ -12,7 +12,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Write PEM key to file
+      - name: Save EC2 Private Key
         run: |
           echo "${{ secrets.EC2_KEY }}" > private_key.pem
           chmod 600 private_key.pem
